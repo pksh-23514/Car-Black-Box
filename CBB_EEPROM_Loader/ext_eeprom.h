@@ -6,7 +6,7 @@
 #define SLAVE_WRITE_EXT		0xA0
 
 /* Function Declarations */
-void write_ext_eeprom (unsigned char address1, unsigned char data);
+void write_ext_eeprom (unsigned char address, unsigned char data);
 unsigned char read_ext_eeprom (unsigned char address);
 
 #endif
