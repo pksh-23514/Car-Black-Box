@@ -1,7 +1,7 @@
 #ifndef I2C_H
 #define I2C_H
 
-/* Function declarations */
+/* Function Declarations */
 void i2c_write (unsigned char data);
 void init_i2c (void);
 void i2c_start (void);

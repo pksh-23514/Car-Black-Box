@@ -14,7 +14,7 @@
 #define CHANNEL9		0x09
 #define CHANNEL10		0x0A
 
-/* Function declarations */
+/* Function Declarations */
 void init_adc (void);
 unsigned short read_adc (unsigned char channel);
 
