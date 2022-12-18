@@ -1,4 +1,13 @@
 # Car-Black-Box
+
+## Introduction
+The concept of Black Box is mainly heard by us in case of Aeroplanes. Upon a catastrophe, the Black Box is used to analyze the root cause of the issue. However, the purpose of Black Box can go beyond catastrophe analysis. Also known as an Event Data Recorder (EDR) or Accident Data Recorder (ADR), the Black Box can be installed in some automobiles to record various events. These events which are electronically sensed can often pro-actively detect any issue in the vehicle (ex: Engine fault) or monitor the fleet (ex: Drive over speeding), thereby doing pro-active maintenance of the Automotive Vehicle. 
+
+By considering today’s busy life, every one wants to reach the destination as soon as possible by ignoring the rules and regulations. By implementing a Black Box which would log critical activities on the car and take appropriate actions in case of rash driving. As mentioned above the root cause of the negligence in the driving would be meeting the daily schedule and go off duty, or to earn extra money by illegal trips etc. So by implementing the mentioned solution, it would be easy to keep track of how the vehicle is being used, handled and control the efficiency of the vehicle.
+
+The proposed solution is to log all the critical events like the gear shifts with current speed, the engine temperature, fuel consumption per trip, trip distance etc. The system should allow a password based access to the transport managers to view or download the Log to PC if required.
+
+## Requirements
 Initially run the Makefile from CBB_EEPROM_Loader folder. It stores the initial values in the External EEPROM. After this, run the Makefile from CBB_Main folder. This starts executing the Project on the PIC18F4580 Micro-controller board. An on-board CLCD screen is used to create an interactive interface.
 
 Initially a Dashboard screen is displayed. It shows Current time, Last occurred event and Vehicle speed. Vehicle speed can be varied using the on-board POT (potentiometer). Matrix SW1 is used to register the Gear UP event. Matrix SW2 is used to register the Gear DOWN event. Matrix SW3 is used to register the Collision event. These event types are stored onto External EEPROM at any time in any display mode. Note that the other events are not displayed on dashboard. They are visible only in View log & Download log operation.
