@@ -12,3 +12,9 @@ Long pressing of matrix SW10 performs the rsepective functionalities:
 4. **Download log**: User has to open the Serial terminal like Minicom or PuTTY etc. on the PC and connect the board with it using UART communication. After Long pressing the Download log option, the Data log will be printed on the Serial monitor.
 
 Long pressing of matrix SW11 will take the User back to the Log Menu if a particular Option is opened. Again Long pressing of matrix SW11 will take the User back to the Dashboard.
+
+## Snapshots
+![image](https://user-images.githubusercontent.com/108017134/208310112-ac80d210-32d3-4d91-93fd-ff5bbd3feda2.png)
+![image](https://user-images.githubusercontent.com/108017134/208310139-2d58fe8f-fa34-48ee-86ca-525193224560.png)
+![image](https://user-images.githubusercontent.com/108017134/208310143-7bfeede7-144e-47de-ad84-e6bad2f41f05.png)
+![image](https://user-images.githubusercontent.com/108017134/208310148-6dec32e6-23fd-45e5-8b2b-7a15c07584c8.png)
